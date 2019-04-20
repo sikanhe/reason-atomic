@@ -7,9 +7,15 @@
     "clean": "bsb -clean-world"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    "Reason",
+    "ReasonML",
+    "React",
+    "ReasonReact",
+    "State",
+    "Management"
   ],
-  "author": "",
+  "author": "Sikan He",
   "license": "MIT",
   "dependencies": {
     "react": "^16.8.0",
