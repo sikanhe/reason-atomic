@@ -50,14 +50,13 @@ function Make(Config) {
                   return state;
                 }));
   };
-  var make = function (mapper, children) {
+  var Atomic$Make$Consumer = function (Props) {
+    var mapper = Props.mapper;
+    var children = Props.children;
     var state = useMappedState(mapper);
-    return /* :: */[
-            Curry._1(children, state),
-            /* [] */0
-          ];
+    return React.createElement(React.Fragment, undefined, Curry._1(children, state));
   };
-  var Consumer = /* module */[/* make */make];
+  var Consumer = /* module */[/* make */Atomic$Make$Consumer];
   return /* module */[
           /* getInitialState */getInitialState,
           /* reducer */reducer,

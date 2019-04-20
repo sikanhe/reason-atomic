@@ -1,6 +1,6 @@
 {
   "name": "reason-atomic",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "sources": {
     "dir" : "src",
     "subdirs" : true
@@ -17,5 +17,8 @@
     "error" : "+101"
   },
   "namespace": false,
+  "reason": {
+    "react-jsx": 3
+  },
   "refmt": 3
 }
